@@ -31,21 +31,6 @@ To answer this we model four tables: `customers`, `products`, `orders` and
 
 ---
 
-## How to run
-
-1. Open Oracle SQL*Plus, Oracle SQL Developer, or TOAD.
-2. Run the script from the command line:
-
-   ```sql
-   @assignment_1.sql
-   ```
-
-   or paste the whole script into SQL Developer and press Run.
-3. The script drops/creates the tables, inserts the sample data, and prints
-   the result of all 8 questions in order.
-
----
-
 ## Question 1 — INNER JOIN (orders + customers)
 
 *List every order with the customer's name and city, and the order date.*
