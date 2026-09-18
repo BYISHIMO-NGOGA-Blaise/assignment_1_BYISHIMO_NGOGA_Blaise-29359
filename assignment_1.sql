@@ -1,14 +1,4 @@
-﻿-- assignment 1 - sunrise supermarket
--- run everything from top to bottom
--- database name: supermarket (created by admin, not runnable here)
-
 set define off;
-
--- remove old tables so we can run again
-drop table order_items cascade constraints;
-drop table orders cascade constraints;
-drop table products cascade constraints;
-drop table customers cascade constraints;
 
 -- create tables
 create table customers (
